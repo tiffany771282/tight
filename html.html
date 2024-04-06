@@ -6,64 +6,104 @@
     <title>貓科動物種類</title>
 </head>
 <style>
-  body {
-      background-color: rgb(247, 239, 193);
-    }
-    h1 {
-      color: rgb(255, 102, 0);
-      border: 5px solid rgb(162, 238, 191);
-      font-size: 60px;
-      text-shadow: 1px 1px 3px black;
-      text-align: center;
-      padding: 15px;
-      width: 450px;
-    margin: auto;
-    margin-right: 25ex;
-  
-    } 
-    .nav{
-              display: flex ;
-          }
-    .nav-list{
-              list-style: none; 
-              margin-right: 20px;
-              font-size: 24px;
-          }
-    header section  h4 {
-      color: rgb(132, 0, 255);            
-    } 
-    header section  h3 {
-      color: rgb(255, 102, 0);
-    }
-    header section  p {
-      color: rgb(27, 26, 27);
-    }
-  </style>  
+body {
+  background-image: url(../練習作業資料/css/貓科動物總類.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+color: rgb(255, 102, 0);
+border: 5px solid rgb(162, 238, 191);
+font-size: 80px;
+text-shadow: 1px 1px 3px black;
+box-shadow: 10px 10px 10px black;
+text-align: center;
+padding: 15px;
+width: 500px;
+margin: auto;
+
+
+} 
+article{ 
+border-collapse: collapse;
+border: 6px rgb(230, 195, 235) solid;
+
+}
+img{ 
+border-collapse: collapse;
+border: 6px rgb(230, 195, 235) solid;
+}  
+.nav{
+  display: flex ;
+
+}
+.nav-list{
+  list-style: none; 
+  margin: auto;
+  font-size: 24px;
+}
+header section  h4 {
+color: rgb(132, 0, 255);            
+} 
+header section  h3 {
+color: rgb(255, 102, 0);
+}
+header section  p {
+color: rgb(27, 26, 27);
+}
+section {font-size: 20px;
+}
+
+header{
+flex: 1;
+border-collapse: collapse;
+border: 6px rgb(230, 195, 235) solid;
+}
+aside{
+flex: 1; 
+border-collapse: collapse;
+border: 6px rgb(230, 195, 235) solid;
+text-align: center;
+padding-top: 150px;
+}
+aside iframe{
+border-collapse: collapse;
+border: 6px rgb(230, 195, 235) solid;
+}
+</style>  
 
 <body>
     <nav>
         <h1>貓科動物種類</h1>
         <ul class="nav">
             <li class="nav-list"><a href=index.html>老虎</a></li>
-            <li class="nav-list">><a href=html.html>豹</a></li>
-            <li class="nav-list">><a href=default.html>藪貓</a></li>
-     </nav>
+            <li class="nav-list"><a href=html.html>豹</a></li>
+            <li class="nav-list"><a href=default.html>藪貓</a></li>
+      </ul>    
+  </nav>
+     <div class="nav">
  <header>
-    <article>
         <section>
             <h3>豹介紹</h3>
             <h4>豹是貓科豹屬下的一種動物。</h4>
             <p>廣泛分布於非洲和亞洲的各個國家和地區。</p>
             <p>環境適應能力強，行蹤隱秘，總體生存狀況好於牠的貓科親戚獅子和老虎及獵豹，但是有些豹亞種的現狀並不容樂觀。</p>
             <p>不同亞種的豹毛色有淺黃，金黃，黃褐等不同。因為其渾身布滿圓形斑紋，所以又名金錢豹或花豹。</p>
-             <img src="./imgs/b.jpg" width="200" alt="豹">
-             <img src="./imgs/b1.jpg" width="200" alt="豹">
-        <section>
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/Ngz_VD3x0TE?si=fviTw1t6zZbNaQK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        </section>
-
-    </article>
- </header>     
-    </ul>
+            &nbsp;&nbsp;&nbsp;
+            <img src="./imgs/b.jpg" width="200" alt="豹">
+            &nbsp;&nbsp;&nbsp;
+            <img src="./imgs/b1.jpg" width="200" alt="豹">
+        </section>
+ </header>
+        <aside>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/Ngz_VD3x0TE?si=fviTw1t6zZbNaQK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+        </aside>
+      </div>
+     
+  
     
 </body>
 </html>
