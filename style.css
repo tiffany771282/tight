@@ -1,0 +1,67 @@
+body {
+            background-image: url(../imgs/貓科動物總類.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+  }
+
+  h1 {
+    color: rgb(255, 102, 0);
+    border: 5px solid rgb(162, 238, 191);
+    font-size: 80px;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+
+
+  } 
+  article{ 
+    border-collapse: collapse;
+    border: 6px rgb(230, 195, 235) solid;
+
+    }
+    img{ 
+    border-collapse: collapse;
+    border: 6px rgb(230, 195, 235) solid;
+    }  
+  .nav{
+            display: flex ;
+          
+        }
+  .nav-list{
+            list-style: none; 
+            margin: auto;
+            font-size: 24px;
+        }
+  header section  h4 {
+    color: rgb(132, 0, 255);            
+  } 
+  header section  h3 {
+    color: rgb(255, 102, 0);
+  }
+  header section  p {
+    color: rgb(27, 26, 27);
+  }
+  section {font-size: 20px;
+  }
+
+  header{
+    flex: 1;
+    border-collapse: collapse;
+    border: 6px rgb(230, 195, 235) solid;
+  }
+  aside{
+    flex: 1; 
+    border-collapse: collapse;
+    border: 6px rgb(230, 195, 235) solid;
+    text-align: center;
+    padding-top: 150px;
+  }
+  aside iframe{
+    border-collapse: collapse;
+    border: 6px rgb(230, 195, 235) solid;
+  }
